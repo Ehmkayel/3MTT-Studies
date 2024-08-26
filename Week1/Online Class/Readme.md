@@ -1,0 +1,1 @@
+# The link to my online study and assignment is : [3MTT Week 1](https://www.beautiful.ai/player/-O4rWtVcrJUvS-7d2m05/3MTT-WEEK-1-TASK)
