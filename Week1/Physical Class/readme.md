@@ -20,16 +20,20 @@ This repository contains my submission for the assignment to write 10 HTML tags 
 
 The following HTML tags were written as part of this assignment:
 
-1. <h1>
-2. <p>
-3. <img>
-4. <a>
-5. <ul>
-6. <div>
-7. <div>
-8. <span>
-9. <button>
-10. <footer>
+```html
+1. <h1> - highest heading
+2. <p> - paragraph
+3. <img> - Image
+4. <a> - anchor (link)
+5. <ul> - unordered list
+6. <div> - division (container)
+7. <div> - division (container)
+8. <span> - inline container
+9. <button> - button
+10. <footer> - footer section
+
+```
+
 
 `CSS Properties`
 
