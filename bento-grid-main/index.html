@@ -2,41 +2,79 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Lamidi Morufat Kajogbola"/>
+  <meta name="description" content="Bento-grid: frontend mentor challenge built with tailwindcss" />
+  <meta name="keywords" content="bento grid, frontend mentor, tailwindcss, bento grid frontend mentor, 3mtt project" />
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Bento grid</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz@0,9..40;1,9..40&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Bento Grid</title>
 </head>
-<body>
+<body class="flex flex-col">
+  <div class="flex flex-col items-center justify-center h-screen p-6 mx-auto max-w-[1300px]">
+    <div class="grid-container gap-3 p-4">
+      <section class="bg-lightYellow rounded-md p-4 text-left row-span-2">
+        <div class="flex h-full flex-col justify-center gap-4">
+          <h2 class="text-4xl tracking-tight font-bold">Create and schedule content <em class="text-DarkPurple text-3xl font-bold">quicker.</em></h2>
+          <img class="w-36" src="./assets/images/illustration-create-post.webp" alt="illustration-create-post"/>
+        </div>
+      </section>
+      <section class=" col-span-2 row-span-2 bg-DarkPurple rounded-md p-4 w-full flex justify-center items-center text-center text-white"> 
+        <div class="flex flex-col justify-center items-center gap-3">
+          <h2 class="text-6xl font-bold">Social Media <span class="text-6xl text-darkYellow font-bold">10x</span> Faster with AI </h2>
+          <img class="w-36" src="./assets/images/illustration-five-stars.webp" alt="illustration-five-stars"/>
+          <p>Over 4,000 5-star reviews</p>
+        </div>
+      </section>
 
-  Social Media 10x Faster with AI
-  Over 4,000 5-star reviews
-
-  Manage multiple accounts and platforms.
-
-  Maintain a consistent posting schedule.
-
-  Schedule to social media.
-  Optimize post timings to publish content at the perfect time for your audience.
-  
-  Grow followers with non-stop content.
-
-  >56% faster audience growth
-  
-  Create and schedule content quicker.
-
-  Write your content using AI.
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+      <section class=" bg-lightPurple rounded-md text-4xl font-semibold-lg p-6 row-span-3 overflow-hidden">
+        <div class="flex flex-col gap-20 flex-auto">
+          <h2 class="text-3xl font-semibold"> Schedule to social media.</h2>
+          <img src="./assets/images/illustration-schedule-posts.webp" alt="illustration-schedule-posts" />
+          <p class="text-lg leading-none"> Optimize post timings to publish content at the perfect time for your audience.</p>
+        </div>
+        </section>
+        <section class=" bg-darkYellow rounded-lg shadow-md p-2 row-span-2"> 
+          <div class="flex flex-col justify-center items-center p-4 gap-8 text-4xl">
+            <h2>Write your content using AI.</h2>
+            <img src="./assets/images/illustration-ai-content.webp" alt="illustration-ai-content">
+          </div>
+        </section>
+        <section class=" bg-white shadow-2xl rounded-lg border p-4 text-left overflow-hidden">
+          <div class="flex flex-col flex-grow space-y-4 justify-center">
+            <img src="./assets/images/illustration-multiple-platforms.webp" alt="illustration-multiple-platforms">
+            <h2 class="text-2xl font-semibold -tracking-tighter">Manage multiple accounts and platforms.</h2>
+          </div> 
+        </section>
+        <section  class="bg-darkYellow rounded-lg border p-2 overflow-hidden"> 
+          <div class="flex flex-col px-6 space-y-2">
+            <h2 class="text-3xl font-semibold leading-none">Maintain a consistent posting schedule.</h2>
+            <img src="./assets/images/illustration-consistent-schedule.webp" alt="illustration-consistent-schedule"/>
+          </div>
+        </section>
+        <section class=" bg-white shadow-2xl rounded-lg border p-3 col-start-2"> 
+          <div class="flex flex-col flex-grow justify-start items-start px-2 gap-4">
+            <span class="text-5xl block font-bold">>56%</span>
+              <h2 class="text-sm">faster audience growth</h2>
+              <img class="w-36" src="./assets/images/illustration-audience-growth.webp" alt="illustration-audience-growth">
+          </div>
+        </section>
+        <section class="bg-DarkPurple rounded-lg shadow-md p-4 col-span-2 col-start-3"> 
+          <div class="flex items-center justify-center space-y-4">
+            <img src="./assets/images/illustration-grow-followers.webp" alt="illustration-grow-followers" class="w-48" />
+                <h2 class="text-white text-3xl font-bold leading-none -tracking-tighter"> Grow followers with non-stop content.</h2>
+            </div>
+        </section>
+    </div>
+    <footer class=" text-DarkPurple">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+      Coded by <a href="https://www.linkedin.com/in/morufat-lamidi/"> LAMIDI Morufat K.</a>.
+    </footer>
   </div>
+  </div>
+
 </body>
 </html>
