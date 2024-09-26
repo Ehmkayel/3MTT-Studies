@@ -24,8 +24,20 @@ main{
     border-radius: 10px;
 }
 
+h1{
+    font-size: 50px;
+}
+
+p{
+    font-size: 20px;
+    text-align: center;
+}
+
 img{
     max-width: 100%;
-    width: 300px
+    width: 300px;
+    border-radius: 20px;
+    padding: 5px;
 }
+
 
