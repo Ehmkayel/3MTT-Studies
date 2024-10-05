@@ -79,8 +79,12 @@ const expression = function ( x, y ){
 }
 expression(10, 60) 
 
-const ramadan = (x, y) => {
-    return console.log(x * y)
+const global = 33
 
+const ramadan = () => {
+    let local = 22
+    console.log(local)
 }
-ramadan(20, 4) 
+ramadan() 
+console.log(global) 
+
