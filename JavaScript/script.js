@@ -88,3 +88,10 @@ const ramadan = () => {
 ramadan() 
 console.log(global) 
 
+const languages = ['frontend', 'backened', 'javascript']
+console.log(languages.length)
+console.log(languages.at(2))
+console.log(languages.pop())
+console.log(languages.shift())
+console.log(languages.unshift(45), languages)
+console.log(languages[2] = 'React', languages) 
