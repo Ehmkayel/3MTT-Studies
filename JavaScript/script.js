@@ -95,3 +95,30 @@ console.log(languages.pop())
 console.log(languages.shift())
 console.log(languages.unshift(45), languages)
 console.log(languages[2] = 'React', languages) 
+
+const asyncStudy = () => {
+    console.log('third task')
+    setTimeout(() => {
+        console.log('first task')
+    
+    }, 3000)
+    console.log('second task')
+}
+
+const object = [
+    {
+        title: 'post 1',
+        body: 'This is a post one body'
+    },
+    {
+        title: 'post 2',
+        body: 'This is a post two body'
+    }
+]
+
+function getPosts () {
+    setTimeout(() => {
+       let content = '' 
+       object.forEach
+    })
+}
